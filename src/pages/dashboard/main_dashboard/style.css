@@ -1,0 +1,159 @@
+.bg {
+  background: var(--primary-color);
+  border-radius: 0;
+}
+
+.btn-wrapper button {
+  background-color: red;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  box-shadow: #333 0px 1px 5px;
+}
+
+.img-wrapper img {
+  width: 100px;
+  margin-top: -10px;
+  ;
+}
+
+.cart-wrapper {
+  height: 100px;
+  width: 500px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+}
+
+.item {
+  float: left;
+  display: inline-block;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+
+.add-to-cart img {
+  width: 80px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+
+.cart-count {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  z-index: 1;
+  background-color: red;
+  padding: 7px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+/*  */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button.remove-cart-btn {
+  background-color: #333;
+}
+
+.card {
+  color: var(--secondary-color);
+  background: var(--primary-color);
+}
+
+#container1 {
+  margin: 6px;
+
+}
+
+@media (max-width:991.98px) {
+  #container1 {
+    margin: 1px;
+
+  }
+}
+
+#container2 {
+  margin: 6px;
+
+}
+
+@media (max-width:991.98px) {
+  #container2 {
+    margin: 1px;
+
+  }
+}
+
+.cardImg {
+  height: 550px;
+}
+
+@media (max-width:991.98px) {
+  .cardImg {
+    height: 250px;
+  }
+}
+
+.fontf {
+  font-family: Cinzel;
+  font-size: 16px;
+  color: var(--text-color-2);
+}
+
+@media (max-width:991.98px) {
+  .fontf {
+    font-family: Cinzel;
+    font-size: 10px;
+    color: var(--text-color-2);
+  }
+}
+
+.button {
+  font-family: Cinzel;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+@media (max-width:991.98px) {
+  .button {
+    font-family: Cinzel;
+    font-size: 10px;
+    color: var(--primary-color);
+  }
+}
+
+.blogstyle {
+  margin-top: 6px;
+  margin-right: 4px;
+  margin-left: 6px;
+  margin-bottom: 10px;
+}
+
+#container2 {
+  margin: 6px;
+
+}
+
+@media (max-width:991.98px) {
+  #container2 {
+    margin: 1px;
+
+  }
+}
+.blogCard{
+  color: var(--secondary-color);
+  background: var(--primary-color);
+}
